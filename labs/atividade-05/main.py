@@ -11,7 +11,7 @@ def maximizar_troca_de_figurinhas(figurinhas_da_maria, figurinhas_do_joao):
         qtd = len(figurinhas_da_maria) - z
 
 
-    else if len(figurinhas_do_joao) < len(figurinhas_da_maria):
+    elif len(figurinhas_do_joao) < len(figurinhas_da_maria):
         for i in range(len(figurinhas_do_joao)):
             for j in range(len(figurinhas_da_maria)):
                 if figurinhas_do_joao[i] == figurinhas_da_maria[j]:
